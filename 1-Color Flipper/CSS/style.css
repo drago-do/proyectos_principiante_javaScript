@@ -1,0 +1,78 @@
+html,body {
+  margin:0px;
+  padding :0px;
+  height: 100%;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+}
+
+.head{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10%;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  z-index: 3;
+}
+.head  a{
+text-decoration: none;
+padding: 0px 0.5rem;
+color: black;
+}
+
+.head a:hover{
+  color: rgb(73,166,233);
+}
+
+#ColorFliper{
+  color: rgb(73,166,233);
+}
+
+
+#content{
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content:  center;
+}
+.textoColorFondo{
+  color: aliceblue; 
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 2em;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(34,34,34);
+}
+
+#color{
+  color: rgb(73,166,233);
+}
+
+.btn{
+  background: transparent;
+  padding: 1em 2em;
+  border-radius: 0.4em;
+  font-weight: bolder;
+  font-size: 1em;
+  border: solid 2px black;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0px 0px 8px white;
+}
+
+.btn:hover{
+  background-color: rgb(34,34,34);
+  color: white;
+  cursor: pointer;
+   text-shadow: none;
+}
